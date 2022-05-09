@@ -9,10 +9,12 @@ const Todo = ({ todos, completeTodo, removeTodo }) => {
         <input type="checkbox" onChange={() => completeTodo(todo.id)} key={todo.id}></input>
       </div>
       <div className="todo-text">{todo.text}</div>
-      <DeleteOutlinedIcon 
+      <div>
+        <DeleteOutlinedIcon 
         onClick={() => removeTodo(todo.id)}
         className='delete-icon'
       />
+    </div>
     </div>
   ));
 };

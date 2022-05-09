@@ -20,6 +20,7 @@
   padding-bottom: 32px;
   border: 2px solid black;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -40,6 +41,7 @@ h1 {
 
 .todo-text {
   word-wrap: break-word;
+  width: 350px;
 }
 
 .todo-input {
